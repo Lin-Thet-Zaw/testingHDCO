@@ -1,0 +1,55 @@
+.mousePointer {
+  cursor: pointer;
+}
+.tableRow {
+  border-top: none !important;
+  border-bottom: 1px solid rgb(223, 223, 223);
+  line-height: 40px;
+  min-height: 40px;
+  height: 40px;
+}
+
+.left-panel-item {
+  border: none;
+  background-color: transparent;
+}
+.active-left-panel {
+  background-color: #eaeaea;
+  font-weight: bold;
+}
+.left-panel-item:hover {
+  background-color: #bdb8b8;
+}
+.leftpanel-title {
+  text-decoration: none;
+  font-size: medium;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn-group {
+  margin-bottom: 13px;
+}
+
+.optional {
+  color: gray;
+}
+.address-btn {
+  margin-top: 26px;
+}
+
+.anchorlink {
+  text-decoration: none;
+  color: rgb(113, 113, 161);
+}
+.menu-card {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.font-strong {
+  font-weight: bold;
+  font-size: 16px;
+}
