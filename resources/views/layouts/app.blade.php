@@ -23,7 +23,7 @@
     <!-- Fontawesome -->
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="{{ secure_url('darkly-bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ secure_url('css/darkly-bootstrap.css') }}">
     
 
 </head>
