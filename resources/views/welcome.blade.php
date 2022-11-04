@@ -6,9 +6,9 @@
 
     <title>Humanitarian and Development Coordination Office</title>
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ url('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="{{ asset('css/darkly-bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ url('css/darkly-bootstrap.css') }}">
     <link rel="shortcut icon" type="image/png" href="{{asset('/logos/hdco.png')}}">
 
     <!-- Scripts -->
