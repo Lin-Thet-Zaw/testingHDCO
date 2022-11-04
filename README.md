@@ -17,4 +17,3 @@ Step 8: run server using this command -> php artisan serve
 
 Note: employee means traveller
 
-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
