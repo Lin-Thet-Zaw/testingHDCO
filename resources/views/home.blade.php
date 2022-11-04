@@ -15,7 +15,7 @@
             <div class='card'>
                 <a href='/admin/trips' class='anchorlink'>
                     <div class='card-body menu-card'>
-                        <img src='{{asset('/logos/request_trip.png')}}' width='100' />
+                        <img src='{{secure_url('/logos/request_trip.png')}}' width='100' />
                         <p>Trip Request <span class="badge rounded-pill bg-danger">{{$pending}}</span></p>
                     </div>
                 </a>
@@ -28,7 +28,7 @@
             <div class='card'>
                 <a href='/admin/allowed/trips' class='anchorlink'>
                     <div class='card-body menu-card'>
-                        <img src='{{asset('/logos/approved.png')}}' width='100' />
+                        <img src='{{secure_url('/logos/approved.png')}}' width='100' />
                         <p>Trip Approved <span class="badge rounded-pill bg-success">{{$allowed}}</span></p>
                     </div>
                 </a>
@@ -41,7 +41,7 @@
             <div class='card'>
                 <a href='/admin/profiles' class='anchorlink'>
                     <div class='card-body menu-card'>
-                        <img src='{{asset('/logos/users.png')}}' width='100' />
+                        <img src='{{secure_url('/logos/users.png')}}' width='100' />
                         <p>Agency Profiles <span class="badge rounded-pill bg-info">{{$agencies}}</span></p>
                     </div>
                 </a>
@@ -62,7 +62,7 @@
             <div class='card'>
                 <a href='/admin/roles' class='anchorlink'>
                     <div class='card-body menu-card'>
-                        <img src='{{asset('/logos/roles.png')}}' width='100' />
+                        <img src='{{secure_url('/logos/roles.png')}}' width='100' />
                         <p>Roles </p>
                     </div>
                 </a>
@@ -74,7 +74,7 @@
             <div class='card'>
                 <a href='/admin/users' class='anchorlink'>
                     <div class='card-body menu-card'>
-                        <img src='{{asset('/logos/users.png')}}' width='100' />
+                        <img src='{{secure_url('/logos/users.png')}}' width='100' />
                         <p>Users <span class="badge rounded-pill bg-info">{{$users}}</span></p>
                     </div>
                 </a>
@@ -86,7 +86,7 @@
             <div class='card'>
                 <a href='/admin/setting' class='anchorlink'>
                     <div class='card-body menu-card'>
-                        <img src='{{asset('/logos/setting.png')}}' width='100' />
+                        <img src='{{secure_url('/logos/setting.png')}}' width='100' />
                         <p>Setting</p>
                     </div>
                 </a>

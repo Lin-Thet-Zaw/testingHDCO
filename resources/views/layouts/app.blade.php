@@ -10,7 +10,7 @@
     <title>{{ ('Humanitarian and Development Coordination Office') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ secure_url('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -18,7 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ secure_url('css/app.css') }}" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="{{ asset('/logos/hdco.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ secure_url('/logos/hdco.png') }}">
 
     <!-- Fontawesome -->
 
@@ -33,12 +33,12 @@
             <div class="container">
                 @role('Admin|Editor')
                 <a class="navbar-brand" href="{{ url('/admin/home') }}">
-                    <img src="{{ asset('/logos/hdco.png')}}" alt="HDCO" width="40" height="40" style="background-color: white; border-radius: 50%">
+                    <img src="{{ secure_url('/logos/hdco.png')}}" alt="HDCO" width="40" height="40" style="background-color: white; border-radius: 50%">
                 </a>
                 @else
                     @auth
                     <a class="navbar-brand" href="{{ url('/agency/profile') }}">
-                        <img src="{{ asset('/logos/hdco.png')}}" alt="HDCO" width="40" height="40" style="background-color: white; border-radius: 50%">
+                        <img src="{{ secure_url('/logos/hdco.png')}}" alt="HDCO" width="40" height="40" style="background-color: white; border-radius: 50%">
                     </a>
                     @endauth
                 @endrole
